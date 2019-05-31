@@ -141,6 +141,7 @@ p.centered-regular {
 .btn-main {
   background-color: transparent;
   border: solid 2px var(--color-white);
+  border-radius: 10px;
   margin-left: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -369,9 +370,9 @@ footer a:hover {
 .main-btn-text {
   margin-bottom: 0.5px;
 }
-.main-btn-link {
+a.main-btn-link {
   color: var(--color-white);
 }
-.main-btn-link:hover {
-  color: var(--color-blue-d);
+.btn-main:hover a.main-btn-link {
+  color: var(--color-blue-xd);
 }
